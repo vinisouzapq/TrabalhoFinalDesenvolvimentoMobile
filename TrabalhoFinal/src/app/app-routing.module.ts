@@ -2,14 +2,22 @@ import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
+    {
+        path: '',
+        redirectTo: 'index',
+        pathMatch: 'full'
+    },
+    {
+        path: 'index',
+        loadChildren: () => import('./folder/folder.module').then(m => m.FolderPageModule)
+    },
   {
-    path: '',
-    redirectTo: 'folder/Inbox',
-    pathMatch: 'full'
+    path: 'perfil',
+    loadChildren: () => import('./perfil/perfil.module').then( m => m.PerfilPageModule)
   },
   {
-    path: 'folder/:id',
-    loadChildren: () => import('./folder/folder.module').then( m => m.FolderPageModule)
+    path: 'rotas',
+    loadChildren: () => import('./rotas/rotas.module').then( m => m.RotasPageModule)
   }
 ];
 
