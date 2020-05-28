@@ -14,7 +14,7 @@ export class AppComponent implements OnInit {
   public appPages = [
       {
        title: 'Inicio',
-       url: '/folder/index',
+       url: '/Inbox',
        icon: 'Home'
     },
     {
@@ -28,22 +28,16 @@ export class AppComponent implements OnInit {
       icon: 'bus'
     },
     {
-      title: 'Archived',
-      url: '/folder/Archived',
-      icon: 'archive'
+      title: 'Horarios',
+      url: '/horarios',
+      icon: 'time'
     },
     {
-      title: 'Trash',
-      url: '/folder/Trash',
-      icon: 'trash'
-    },
-    {
-      title: 'Spam',
-      url: '/folder/Spam',
-      icon: 'warning'
+      title: 'Quem somos',
+      url: '/equipe',
+      icon: 'people'
     }
   ];
-  public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
 
   constructor(
     private platform: Platform,

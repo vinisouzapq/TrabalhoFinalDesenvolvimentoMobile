@@ -4,11 +4,11 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
     {
         path: '',
-        redirectTo: 'index',
+        redirectTo: 'Inbox',
         pathMatch: 'full'
     },
     {
-        path: 'index',
+        path: 'Inbox',
         loadChildren: () => import('./folder/folder.module').then(m => m.FolderPageModule)
     },
   {
@@ -18,6 +18,14 @@ const routes: Routes = [
   {
     path: 'rotas',
     loadChildren: () => import('./rotas/rotas.module').then( m => m.RotasPageModule)
+  },
+  {
+    path: 'horarios',
+    loadChildren: () => import('./horarios/horarios.module').then( m => m.HorariosPageModule)
+  },
+  {
+    path: 'equipe',
+    loadChildren: () => import('./equipe/equipe.module').then( m => m.EquipePageModule)
   }
 ];
 
