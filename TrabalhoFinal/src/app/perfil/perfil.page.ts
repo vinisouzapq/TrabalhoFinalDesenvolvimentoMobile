@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PerfilService } from '../services/perfil.service';
 
 @Component({
   selector: 'app-perfil',
