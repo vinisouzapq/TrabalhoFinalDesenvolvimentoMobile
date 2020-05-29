@@ -1,14 +1,12 @@
 {
-	"User": [
+	"posts": [
 		{
 			"id": 1,
-			"name": "Marcos Vinicius",
-			"age" :  21
+			"title": "Post 1"
 		},
 		{
 			"id": 2,
-			"name": "Elisangela",
-			"age":  29
+			"title": "Post 2"
 		},
 		{
 			"id": 3,
@@ -28,6 +26,6 @@
 		}
 	],
 	"profile": {
-		"name": "Marcos Vinicius"
+		"name": "typicode"
 	}
 }
