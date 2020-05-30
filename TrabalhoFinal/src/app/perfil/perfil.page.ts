@@ -6,11 +6,15 @@ import { PerfilService } from '../services/perfil.service';
   templateUrl: './perfil.page.html',
   styleUrls: ['./perfil.page.scss'],
 })
+
 export class PerfilPage implements OnInit {
 
-  constructor() { }
 
-  ngOnInit() {
+    constructor(private perfilService: PerfilService) {}
+
+    async ngOnInit() {
+        let response = await this.perfilService.getUser();
+        return response;
   }
 
 }

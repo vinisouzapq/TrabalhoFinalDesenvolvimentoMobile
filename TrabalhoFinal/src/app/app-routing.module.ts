@@ -2,15 +2,15 @@ import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-    {
+  {
         path: '',
         redirectTo: 'Inbox',
         pathMatch: 'full'
-    },
-    {
-        path: 'Inbox',
-        loadChildren: () => import('./folder/folder.module').then(m => m.FolderPageModule)
-    },
+  },
+  {
+    path: 'Inbox',
+    loadChildren: () => import('./folder/folder.module').then(m => m.FolderPageModule)
+  },
   {
     path: 'perfil',
     loadChildren: () => import('./perfil/perfil.module').then( m => m.PerfilPageModule)
