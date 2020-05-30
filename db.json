@@ -12,21 +12,21 @@
 		"veiculos": [
 			{
 				"id": 1,
-				"linha_id": "9250",
+				"linhaId": "9250",
 				"codigo_veiculo": "12345",
 				"partida": "06:40",
 				"adaptado": true
 			},
 			{
 				"id": 2,
-				"linha_id": "9250",
+				"linhaId": "9250",
 				"codigo_veiculo": "123456",
 				"partida": "06:45",
 				"adaptado": false
 			},
 			{
 				"id": 3,
-				"linha_id": "5201",
+				"linhaId": "5201",
 				"codigo_veiculo": "123",
 				"partida": "06:20",
 				"adaptado": true
