@@ -1,11 +1,15 @@
 	{
-		"Linhas": [
+		"linhas": [
 			{
 				"id": "9250",
 				"itinerario": "Nova Citra X Caetano Furquim"
+			},
+			{
+				"id": "5201",
+				"itinerario": "Buritiss x Dona Clara"
 			}
 		],
-		"Horario": [
+		"veiculos": [
 			{
 				"id": 1,
 				"linha_id": "9250",
@@ -19,6 +23,13 @@
 				"codigo_veiculo": "123456",
 				"partida": "06:45",
 				"adaptado": false
+			},
+			{
+				"id": 2,
+				"linha_id": "5201",
+				"codigo_veiculo": "123",
+				"partida": "06:20",
+				"adaptado": true
 			}
 		]
 	}
