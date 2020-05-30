@@ -1,35 +1,79 @@
 	{
-		"linhas": [
-			{
-				"id": "9250",
-				"itinerario": "Nova Citra X Caetano Furquim"
-			},
-			{
-				"id": "5201",
-				"itinerario": "Buritiss x Dona Clara"
-			}
-		],
-		"veiculos": [
-			{
-				"id": 1,
-				"linhaId": "9250",
-				"codigo_veiculo": "12345",
-				"partida": "06:40",
-				"adaptado": true
-			},
-			{
-				"id": 2,
-				"linhaId": "9250",
-				"codigo_veiculo": "123456",
-				"partida": "06:45",
-				"adaptado": false
-			},
-			{
-				"id": 3,
-				"linhaId": "5201",
-				"codigo_veiculo": "123",
-				"partida": "06:20",
-				"adaptado": true
-			}
-		]
+	    "linhas": [{
+	            "id": "9250",
+	            "itinerario": "Nova Citra X Caetano Furquim"
+	        },
+	        {
+	            "id": "5201",
+	            "itinerario": "Buritis x Dona Clara"
+	        },
+	        {
+	            "id": "2104",
+	            "itinerario": "Nova Gameleira x BH Shopping "
+	        },
+	        {
+	            "id": "9410",
+	            "itinerario": "Sagrada Familia x Coracao Eucaristico"
+	        },
+	        {
+	            "id": "9414",
+	            "itinerario": "Santa Ines x Joao Pinheiro"
+	        },
+	        {
+	            "id": "9407",
+	            "itinerario": "Alto Vera Cruz x Dom Bosco"
+	        },
+	        {
+	            "id": "8150",
+	            "itinerario": "Uniao x Serra"
+	        },
+	        {
+	            "id": "4110",
+	            "itinerario": "Dom Cabral x Belvedere"
+	        },
+	        {
+	            "id": "4111",
+	            "itinerario": "Dom Cabral x Anchieta"
+	        },
+	        {
+	            "id": "9209",
+	            "itinerario": "Sagrada Familia x Gutierrez"
+	        },
+	        {
+	            "id": "2150",
+	            "itinerario": "Grajau x Sion"
+	        },
+	        {
+	            "id": "1170",
+	            "itinerario": "Santa Lucia x Mangabeiras"
+	        },
+	        {
+	            "id": "2033",
+	            "itinerario": "Betania x Centro "
+	        }
+
+	    ],
+
+	    "veiculos": [{
+	            "id": 1,
+	            "linhaId": "9250",
+	            "codigo_veiculo": "12345",
+	            "partida": "06:40",
+	            "adaptado": true
+	        },
+	        {
+	            "id": 2,
+	            "linhaId": "9250",
+	            "codigo_veiculo": "123456",
+	            "partida": "06:45",
+	            "adaptado": false
+	        },
+	        {
+	            "id": 3,
+	            "linhaId": "5201",
+	            "codigo_veiculo": "123",
+	            "partida": "06:20",
+	            "adaptado": true
+	        }
+	    ]
 	}
