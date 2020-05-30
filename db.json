@@ -1,33 +1,24 @@
 	{
-		"Perfil": [
+		"Linhas": [
+			{
+				"id": "9250",
+				"itinerario": "Nova Citra X Caetano Furquim"
+			}
+		],
+		"Horario": [
 			{
 				"id": 1,
-				"name": "Marcos",
-				"email": "algumacoisa@algumacoisa.com",
-				"phone": "31999682971"
+				"linha_id": "9250",
+				"codigo_veiculo": "12345",
+				"partida": "06:40",
+				"adaptado": true
 			},
 			{
 				"id": 2,
-				"name": "Elisangela",
-				"email": "algumacoisa@algumacoisa.com",
-				"phone": "31999999999"
-			}
-		],
-		"Horarios": [
-			{
-				"id": 1,
-				"body": "some comment",
-				"postId": 1
-			},
-			{
-				"id": 2,
-				"body": "some comment",
-				"postId": 1
-			}
-		],
-		"Rotas": [
-			{
-				"name": "typicode"
+				"linha_id": "9250",
+				"codigo_veiculo": "123456",
+				"partida": "06:45",
+				"adaptado": false
 			}
 		]
 	}
