@@ -10,9 +10,9 @@ export class PerfilService {
 
     constructor(private http: HttpClient) { }
 
-    async getUser(id) {
+    async getUser() {
         let response = await this.http.get("https://my-json-server.typicode.com/vinisouzapq/TrabalhoFinalDesenvolvimentoMobile/perfil").toPromise();
-        //console.log(response);
-        return response;
+        console.log(response);
+        //return response;
     }
 }

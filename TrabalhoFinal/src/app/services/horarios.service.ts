@@ -10,7 +10,7 @@ export class HorariosService {
     constructor(private http: HttpClient) { }
 
     async getHorarios() {
-        let response = await this.http.get("https://my-json-server.typicode.com/vinisouzapq/TrabalhoFinalDesenvolvimentoMobile/db").toPromise();
+        let response = await this.http.get("https://my-json-server.typicode.com/vinisouzapq/TrabalhoFinalDesenvolvimentoMobile/horarios ").toPromise();
         //console.log(response);
         return response;
     }
