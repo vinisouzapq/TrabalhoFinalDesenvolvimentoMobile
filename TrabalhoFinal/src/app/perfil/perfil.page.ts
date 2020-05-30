@@ -9,12 +9,13 @@ import { PerfilService } from '../services/perfil.service';
 
 export class PerfilPage implements OnInit {
 
-
+    user: any;
+    
     constructor(private perfilService: PerfilService) {}
 
     async ngOnInit() {
         let response = await this.perfilService.getUser();
-        return response;
+        this.user = response;
   }
 
 }
