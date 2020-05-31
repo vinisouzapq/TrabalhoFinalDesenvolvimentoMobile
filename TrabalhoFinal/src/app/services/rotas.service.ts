@@ -9,8 +9,8 @@ export class RotasService {
 
     constructor(private http: HttpClient) { }
 
-    async getHorarios() {
-        let response = await this.http.get("https://my-json-server.typicode.com/vinisouzapq/TrabalhoFinalDesenvolvimentoMobile/rotas").toPromise();
+    async getVeiculos() {
+        let response = await this.http.get("https://my-json-server.typicode.com/vinisouzapq/TrabalhoFinalDesenvolvimentoMobile/linhas/"+linha+"/veiculos").toPromise();
         //console.log(response);
         return response;
     } 
