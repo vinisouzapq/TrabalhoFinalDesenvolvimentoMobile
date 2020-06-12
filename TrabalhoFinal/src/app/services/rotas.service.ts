@@ -14,7 +14,7 @@ export class RotasService {
 
     async getVeiculos() {
         let response = await this.http.get("https://my-json-server.typicode.com/vinisouzapq/TrabalhoFinalDesenvolvimentoMobile/linhas/"+linha+"/veiculos").toPromise();
-        //console.log(response);
-        return response;
+        console.log(response);
+        //return response;
     } 
 }
