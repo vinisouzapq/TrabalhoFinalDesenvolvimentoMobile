@@ -1,756 +1,705 @@
-	{
-	    "linhas": [{
-	            "id": "9250",
-	            "itinerario": "Nova Citra X Caetano Furquim"
-	        },
-	        {
-	            "id": "5201",
-	            "itinerario": "Buritis x Dona Clara"
-	        },
-	        {
-	            "id": "2104",
-	            "itinerario": "Nova Gameleira x BH Shopping "
-	        },
-	        {
-	            "id": "9410",
-	            "itinerario": "Sagrada Familia x Coracao Eucaristico"
-	        },
-	        {
-	            "id": "9414",
-	            "itinerario": "Santa Ines x Joao Pinheiro"
-	        },
-	        {
-	            "id": "9407",
-	            "itinerario": "Alto Vera Cruz x Dom Bosco"
-	        },
-	        {
-	            "id": "8150",
-	            "itinerario": "Uniao x Serra"
-	        },
-	        {
-	            "id": "4110",
-	            "itinerario": "Dom Cabral x Belvedere"
-	        },
-	        {
-	            "id": "4111",
-	            "itinerario": "Dom Cabral x Anchieta"
-	        },
-	        {
-	            "id": "9209",
-	            "itinerario": "Sagrada Familia x Gutierrez"
-	        },
-	        {
-	            "id": "2150",
-	            "itinerario": "Grajau x Sion"
-	        },
-	        {
-	            "id": "1170",
-	            "itinerario": "Santa Lucia x Mangabeiras"
-	        },
-	        {
-	            "id": "2033",
-	            "itinerario": "Betania x Centro "
-	        },
+{
+	"linhas": [
+		{
+			"id": "9250",
+			"itinerario": "Nova Citra X Caetano Furquim"
+		},
+		{
+			"id": "5201",
+			"itinerario": "Buritis x Dona Clara"
+		},
+		{
+			"id": "2104",
+			"itinerario": "Nova Gameleira x BH Shopping "
+		},
+		{
+			"id": "9410",
+			"itinerario": "Sagrada Familia x Coracao Eucaristico"
+		},
+		{
+			"id": "9414",
+			"itinerario": "Santa Ines x Joao Pinheiro"
+		},
+		{
+			"id": "9407",
+			"itinerario": "Alto Vera Cruz x Dom Bosco"
+		},
+		{
+			"id": "8150",
+			"itinerario": "Uniao x Serra"
+		},
+		{
+			"id": "4110",
+			"itinerario": "Dom Cabral x Belvedere"
+		},
+		{
+			"id": "4111",
+			"itinerario": "Dom Cabral x Anchieta"
+		},
+		{
+			"id": "9209",
+			"itinerario": "Sagrada Familia x Gutierrez"
+		},
+		{
+			"id": "2150",
+			"itinerario": "Grajau x Sion"
+		},
+		{
+			"id": "1170",
+			"itinerario": "Santa Lucia x Mangabeiras"
+		},
+		{
+			"id": "2033",
+			"itinerario": "Betania x Centro "
+		},
+		{
+			"id": "1505",
+			"itinerario": "Alto Dos Pinheiros x Tupi"
+		},
+		{
+			"id": "8203",
+			"itinerario": "Renascenca x Buritis"
+		},
+		{
+			"id": "4033",
+			"itinerario": "Camargos x Centro"
+		},
+		{
+			"id": "4031",
+			"itinerario": "Santa Maria x Hospitais"
+		}
+	],
+	"veiculos": [
+		{
+			"id": 1,
+			"linhaId": "9250",
+			"codigo_veiculo": "12000",
+			"partida": "06:40",
+			"adaptado": true
+		},
+		{
+			"id": 2,
+			"linhaId": "9250",
+			"codigo_veiculo": "12001",
+			"partida": "06:45",
+			"adaptado": false
+		},
+		{
+			"id": 3,
+			"linhaId": "9250",
+			"codigo_veiculo": "12002",
+			"partida": "05:00",
+			"adaptado": true
+		},
+		{
+			"id": 4,
+			"linhaId": "9250",
+			"codigo_veiculo": "12003",
+			"partida": "05:15",
+			"adaptado": false
+		},
+		{
+			"id": 5,
+			"linhaId": "9250",
+			"codigo_veiculo": "12004",
+			"partida": "05:30",
+			"adaptado": true
+		},
+		{
+			"id": 6,
+			"linhaId": "9250",
+			"codigo_veiculo": "12005",
+			"partida": "05:45",
+			"adaptado": false
+		},
+		{
+			"id": 7,
+			"linhaId": "5201",
+			"codigo_veiculo": "12006",
+			"partida": "06:20",
+			"adaptado": true
+		},
+		{
+			"id": 8,
+			"linhaId": "5201",
+			"codigo_veiculo": "12007",
+			"partida": "06:40",
+			"adaptado": false
+		},
+		{
+			"id": 9,
+			"linhaId": "5201",
+			"codigo_veiculo": "12008",
+			"partida": "07:00",
+			"adaptado": false
+		},
+		{
+			"id": 10,
+			"linhaId": "5201",
+			"codigo_veiculo": "12009",
+			"partida": "07:20",
+			"adaptado": true
+		},
+		{
+			"id": 11,
+			"linhaId": "5201",
+			"codigo_veiculo": "12010",
+			"partida": "07:40",
+			"adaptado": false
+		},
+		{
+			"id": 12,
+			"linhaId": "5201",
+			"codigo_veiculo": "12011",
+			"partida": "08:00",
+			"adaptado": true
+		},
+		{
+			"id": 13,
+			"linhaId": "2104",
+			"codigo_veiculo": "12012",
+			"partida": "06:00",
+			"adaptado": false
+		},
+		{
+			"id": 14,
+			"linhaId": "2104",
+			"codigo_veiculo": "12013",
+			"partida": "07:05",
+			"adaptado": true
+		},
+		{
+			"id": 15,
+			"linhaId": "2104",
+			"codigo_veiculo": "12014",
+			"partida": "07:20",
+			"adaptado": false
+		},
+		{
+			"id": 16,
+			"linhaId": "2104",
+			"codigo_veiculo": "12015",
+			"partida": "07:35",
+			"adaptado": true
+		},
+		{
+			"id": 17,
+			"linhaId": "2104",
+			"codigo_veiculo": "12016",
+			"partida": "07:50",
+			"adaptado": false
+		},
+		{
+			"id": 18,
+			"linhaId": "2104",
+			"codigo_veiculo": "12017",
+			"partida": "08:05",
+			"adaptado": true
+		},
+		{
+			"id": 19,
+			"linhaId": "9410",
+			"codigo_veiculo": "12018",
+			"partida": "06:00",
+			"adaptado": false
+		},
+		{
+			"id": 20,
+			"linhaId": "9410",
+			"codigo_veiculo": "12019",
+			"partida": "06:20",
+			"adaptado": true
+		},
+		{
+			"id": 21,
+			"linhaId": "9410",
+			"codigo_veiculo": "12020",
+			"partida": "06:40",
+			"adaptado": false
+		},
+		{
+			"id": 22,
+			"linhaId": "9410",
+			"codigo_veiculo": "12021",
+			"partida": "07:00",
+			"adaptado": true
+		},
+		{
+			"id": 23,
+			"linhaId": "9410",
+			"codigo_veiculo": "12022",
+			"partida": "07:20",
+			"adaptado": false
+		},
+		{
+			"id": 24,
+			"linhaId": "9410",
+			"codigo_veiculo": "12023",
+			"partida": "07:40",
+			"adaptado": true
+		},
+		{
+			"id": 25,
+			"linhaId": "9414",
+			"codigo_veiculo": "12024",
+			"partida": "09:00",
+			"adaptado": false
+		},
+		{
+			"id": 26,
+			"linhaId": "9414",
+			"codigo_veiculo": "12025",
+			"partida": "09:15",
+			"adaptado": true
+		},
+		{
+			"id": 27,
+			"linhaId": "9414",
+			"codigo_veiculo": "12026",
+			"partida": "09:30",
+			"adaptado": false
+		},
+		{
+			"id": 28,
+			"linhaId": "9414",
+			"codigo_veiculo": "12027",
+			"partida": "09:45",
+			"adaptado": true
+		},
+		{
+			"id": 29,
+			"linhaId": "9414",
+			"codigo_veiculo": "12028",
+			"partida": "10:00",
+			"adaptado": false
+		},
+		{
+			"id": 30,
+			"linhaId": "9414",
+			"codigo_veiculo": "12029",
+			"partida": "10:15",
+			"adaptado": true
+		},
+		{
+			"id": 31,
+			"linhaId": "9407",
+			"codigo_veiculo": "12030",
+			"partida": "10:00",
+			"adaptado": false
+		},
+		{
+			"id": 32,
+			"linhaId": "9407",
+			"codigo_veiculo": "12031",
+			"partida": "10:15",
+			"adaptado": true
+		},
+		{
+			"id": 33,
+			"linhaId": "9407",
+			"codigo_veiculo": "12032",
+			"partida": "10:30",
+			"adaptado": false
+		},
+		{
+			"id": 34,
+			"linhaId": "9407",
+			"codigo_veiculo": "12033",
+			"partida": "10:45",
+			"adaptado": true
+		},
+		{
+			"id": 35,
+			"linhaId": "9407",
+			"codigo_veiculo": "12034",
+			"partida": "11:00",
+			"adaptado": false
+		},
+		{
+			"id": 36,
+			"linhaId": "9407",
+			"codigo_veiculo": "12035",
+			"partida": "11:15",
+			"adaptado": true
+		},
+		{
+			"id": 37,
+			"linhaId": "8150",
+			"codigo_veiculo": "12036",
+			"partida": "08:00",
+			"adaptado": false
+		},
+		{
+			"id": 38,
+			"linhaId": "8150",
+			"codigo_veiculo": "12037",
+			"partida": "08:15",
+			"adaptado": true
+		},
+		{
+			"id": 39,
+			"linhaId": "8150",
+			"codigo_veiculo": "12038",
+			"partida": "08:30",
+			"adaptado": false
+		},
+		{
+			"id": 40,
+			"linhaId": "8150",
+			"codigo_veiculo": "12039",
+			"partida": "08:45",
+			"adaptado": true
+		},
+		{
+			"id": 41,
+			"linhaId": "8150",
+			"codigo_veiculo": "12040",
+			"partida": "09:00",
+			"adaptado": false
+		},
+		{
+			"id": 42,
+			"linhaId": "8150",
+			"codigo_veiculo": "12041",
+			"partida": "09:15",
+			"adaptado": true
+		},
+		{
+			"id": 43,
+			"linhaId": "4110",
+			"codigo_veiculo": "12041",
+			"partida": "07:00",
+			"adaptado": false
+		},
+		{
+			"id": 44,
+			"linhaId": "4110",
+			"codigo_veiculo": "12042",
+			"partida": "07:15",
+			"adaptado": true
+		},
+		{
+			"id": 45,
+			"linhaId": "4110",
+			"codigo_veiculo": "12043",
+			"partida": "07:30",
+			"adaptado": false
+		},
+		{
+			"id": 46,
+			"linhaId": "4110",
+			"codigo_veiculo": "12044",
+			"partida": "07:45",
+			"adaptado": true
+		},
+		{
+			"id": 47,
+			"linhaId": "4110",
+			"codigo_veiculo": "12045",
+			"partida": "08:00",
+			"adaptado": false
+		},
+		{
+			"id": 48,
+			"linhaId": "4110",
+			"codigo_veiculo": "12046",
+			"partida": "08:15",
+			"adaptado": true
+		},
+		{
+			"id": 49,
+			"linhaId": "4111",
+			"codigo_veiculo": "12047",
+			"partida": "10:00",
+			"adaptado": false
+		},
+		{
+			"id": 50,
+			"linhaId": "4111",
+			"codigo_veiculo": "12048",
+			"partida": "10:15",
+			"adaptado": true
+		},
+		{
+			"id": 51,
+			"linhaId": "4111",
+			"codigo_veiculo": "12049",
+			"partida": "10:30",
+			"adaptado": false
+		},
+		{
+			"id": 52,
+			"linhaId": "4111",
+			"codigo_veiculo": "12050",
+			"partida": "10:45",
+			"adaptado": true
+		},
+		{
+			"id": 53,
+			"linhaId": "4111",
+			"codigo_veiculo": "12051",
+			"partida": "11:00",
+			"adaptado": false
+		},
+		{
+			"id": 54,
+			"linhaId": "4111",
+			"codigo_veiculo": "12052",
+			"partida": "11:15",
+			"adaptado": true
+		},
+		{
+			"id": 55,
+			"linhaId": "9209",
+			"codigo_veiculo": "12053",
+			"partida": "06:00",
+			"adaptado": false
+		},
+		{
+			"id": 56,
+			"linhaId": "9209",
+			"codigo_veiculo": "12054",
+			"partida": "06:15",
+			"adaptado": true
+		},
+		{
+			"id": 57,
+			"linhaId": "49209",
+			"codigo_veiculo": "12055",
+			"partida": "06:30",
+			"adaptado": false
+		},
+		{
+			"id": 58,
+			"linhaId": "9209",
+			"codigo_veiculo": "12056",
+			"partida": "06:45",
+			"adaptado": true
+		},
+		{
+			"id": 59,
+			"linhaId": "9209",
+			"codigo_veiculo": "12057",
+			"partida": "07:00",
+			"adaptado": false
+		},
+		{
+			"id": 60,
+			"linhaId": "9209",
+			"codigo_veiculo": "12058",
+			"partida": "07:15",
+			"adaptado": true
+		},
+		{
+			"id": 61,
+			"linhaId": "9209",
+			"codigo_veiculo": "12059",
+			"partida": "06:00",
+			"adaptado": false
+		},
+		{
+			"id": 62,
+			"linhaId": "2150",
+			"codigo_veiculo": "12060",
+			"partida": "08:15",
+			"adaptado": true
+		},
+		{
+			"id": 63,
+			"linhaId": "2150",
+			"codigo_veiculo": "12061",
+			"partida": "08:30",
+			"adaptado": false
+		},
+		{
+			"id": 64,
+			"linhaId": "2150",
+			"codigo_veiculo": "12062",
+			"partida": "08:45",
+			"adaptado": true
+		},
+		{
+			"id": 65,
+			"linhaId": "2150",
+			"codigo_veiculo": "12063",
+			"partida": "09:00",
+			"adaptado": false
+		},
+		{
+			"id": 66,
+			"linhaId": "2150",
+			"codigo_veiculo": "12064",
+			"partida": "09:15",
+			"adaptado": true
+		},
+		{
+			"id": 67,
+			"linhaId": "1170",
+			"codigo_veiculo": "12065",
+			"partida": "13:15",
+			"adaptado": true
+		},
+		{
+			"id": 68,
+			"linhaId": "1170",
+			"codigo_veiculo": "12066",
+			"partida": "13:30",
+			"adaptado": false
+		},
+		{
+			"id": 69,
+			"linhaId": "1170",
+			"codigo_veiculo": "12067",
+			"partida": "13:45",
+			"adaptado": true
+		},
+		{
+			"id": 70,
+			"linhaId": "1170",
+			"codigo_veiculo": "12068",
+			"partida": "14:00",
+			"adaptado": false
+		},
+		{
+			"id": 71,
+			"linhaId": "1170",
+			"codigo_veiculo": "12069",
+			"partida": "14:15",
+			"adaptado": true
+		},
+		{
+			"id": 72,
+			"linhaId": "2033",
+			"codigo_veiculo": "12070",
+			"partida": "13:15",
+			"adaptado": true
+		},
+		{
+			"id": 73,
+			"linhaId": "2033",
+			"codigo_veiculo": "12071",
+			"partida": "13:30",
+			"adaptado": false
+		},
+		{
+			"id": 74,
+			"linhaId": "2033",
+			"codigo_veiculo": "12072",
+			"partida": "13:45",
+			"adaptado": true
+		},
+		{
+			"id": 75,
+			"linhaId": "2033",
+			"codigo_veiculo": "12073",
+			"partida": "14:00",
+			"adaptado": false
+		},
+		{
+			"id": 76,
+			"linhaId": "2033",
+			"codigo_veiculo": "12074",
+			"partida": "14:15",
+			"adaptado": true
+		},
+		{
+			"id": 77,
+			"linhaId": "1505",
+			"codigo_veiculo": "12076",
+			"partida": "06:15",
+			"adaptado": true
+		},
+		{
+			"id": 78,
+			"linhaId": "1505",
+			"codigo_veiculo": "12077",
+			"partida": "06:30",
+			"adaptado": false
+		},
+		{
+			"id": 79,
+			"linhaId": "1505",
+			"codigo_veiculo": "12078",
+			"partida": "07:30",
+			"adaptado": true
+		},
+		{
+			"id": 80,
+			"linhaId": "1505",
+			"codigo_veiculo": "12079",
+			"partida": "08:00",
+			"adaptado": false
+		},
+		{
+			"id": 81,
+			"linhaId": "1505",
+			"codigo_veiculo": "12080",
+			"partida": "08:15",
+			"adaptado": true
+		},
+		{
+			"id": 82,
+			"linhaId": "8203",
+			"codigo_veiculo": "12081",
+			"partida": "06:15",
+			"adaptado": true
+		},
+		{
+			"id": 83,
+			"linhaId": "8203",
+			"codigo_veiculo": "12082",
+			"partida": "06:30",
+			"adaptado": false
+		},
+		{
+			"id": 84,
+			"linhaId": "8203",
+			"codigo_veiculo": "12083",
+			"partida": "07:30",
+			"adaptado": true
+		},
+		{
+			"id": 85,
+			"linhaId": "8203",
+			"codigo_veiculo": "12084",
+			"partida": "08:00",
+			"adaptado": false
+		},
+		{
+			"id": 86,
+			"linhaId": "8203",
+			"codigo_veiculo": "12085",
+			"partida": "08:15",
+			"adaptado": true
+		},
+		{
+			"id": 87,
+			"linhaId": "4033",
+			"codigo_veiculo": "12086",
+			"partida": "12:15",
+			"adaptado": true
+		},
+		{
+			"id": 88,
+			"linhaId": "4033",
+			"codigo_veiculo": "12087",
+			"partida": "12:30",
+			"adaptado": false
+		},
+		{
+			"id": 89,
+			"linhaId": "4033",
+			"codigo_veiculo": "12088",
+			"partida": "13:00",
+			"adaptado": true
+		},
+		{
+			"id": 90,
+			"linhaId": "4033",
+			"codigo_veiculo": "12089",
+			"partida": "13:30",
+			"adaptado": false
+		}
+	]
+}
 
-	        {
-	            "id": "1505",
-	            "itinerario": "Alto Dos Pinheiros x Tupi"
-	        },
-
-	        {
-	            "id": "8203",
-	            "itinerario": "Renascenca x Buritis"
-	        },
-
-	        {
-	            "id": "4033",
-	            "itinerario": "Camargos x Centro"
-	        },
-
-	        {
-	            "id": "4031",
-	            "itinerario": "Santa Maria x Hospitais"
-	        }
-
-
-	    ],
-
-	    "veiculos": [{
-	            "id": 1,
-	            "linhaId": "9250",
-	            "codigo_veiculo": "12000",
-	            "partida": "06:40",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 2,
-	            "linhaId": "9250",
-	            "codigo_veiculo": "12001",
-	            "partida": "06:45",
-	            "adaptado": false
-	        },
-
-	        {
-	            "id": 3,
-	            "linhaId": "9250",
-	            "codigo_veiculo": "12002",
-	            "partida": "05:00",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 4,
-	            "linhaId": "9250",
-	            "codigo_veiculo": "12003",
-	            "partida": "05:15",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 5,
-	            "linhaId": "9250",
-	            "codigo_veiculo": "12004",
-	            "partida": "05:30",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 6,
-	            "linhaId": "9250",
-	            "codigo_veiculo": "12005",
-	            "partida": "05:45",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 7,
-	            "linhaId": "5201",
-	            "codigo_veiculo": "12006",
-	            "partida": "06:20",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 8,
-	            "linhaId": "5201",
-	            "codigo_veiculo": "12007",
-	            "partida": "06:40",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 9,
-	            "linhaId": "5201",
-	            "codigo_veiculo": "12008",
-	            "partida": "07:00",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 10,
-	            "linhaId": "5201",
-	            "codigo_veiculo": "12009",
-	            "partida": "07:20",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 11,
-	            "linhaId": "5201",
-	            "codigo_veiculo": "12010",
-	            "partida": "07:40",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 12,
-	            "linhaId": "5201",
-	            "codigo_veiculo": "12011",
-	            "partida": "08:00",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 13,
-	            "linhaId": "2104",
-	            "codigo_veiculo": "12012",
-	            "partida": "06:00",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 14,
-	            "linhaId": "2104",
-	            "codigo_veiculo": "12013",
-	            "partida": "07:05",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 15,
-	            "linhaId": "2104",
-	            "codigo_veiculo": "12014",
-	            "partida": "07:20",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 16,
-	            "linhaId": "2104",
-	            "codigo_veiculo": "12015",
-	            "partida": "07:35",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 17,
-	            "linhaId": "2104",
-	            "codigo_veiculo": "12016",
-	            "partida": "07:50",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 18,
-	            "linhaId": "2104",
-	            "codigo_veiculo": "12017",
-	            "partida": "08:05",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 19,
-	            "linhaId": "9410",
-	            "codigo_veiculo": "12018",
-	            "partida": "06:00",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 20,
-	            "linhaId": "9410",
-	            "codigo_veiculo": "12019",
-	            "partida": "06:20",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 21,
-	            "linhaId": "9410",
-	            "codigo_veiculo": "12020",
-	            "partida": "06:40",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 22,
-	            "linhaId": "9410",
-	            "codigo_veiculo": "12021",
-	            "partida": "07:00",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 23,
-	            "linhaId": "9410",
-	            "codigo_veiculo": "12022",
-	            "partida": "07:20",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 24,
-	            "linhaId": "9410",
-	            "codigo_veiculo": "12023",
-	            "partida": "07:40",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 25,
-	            "linhaId": "9414",
-	            "codigo_veiculo": "12024",
-	            "partida": "09:00",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 26,
-	            "linhaId": "9414",
-	            "codigo_veiculo": "12025",
-	            "partida": "09:15",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 27,
-	            "linhaId": "9414",
-	            "codigo_veiculo": "12026",
-	            "partida": "09:30",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 28,
-	            "linhaId": "9414",
-	            "codigo_veiculo": "12027",
-	            "partida": "09:45",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 29,
-	            "linhaId": "9414",
-	            "codigo_veiculo": "12028",
-	            "partida": "10:00",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 30,
-	            "linhaId": "9414",
-	            "codigo_veiculo": "12029",
-	            "partida": "10:15",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 31,
-	            "linhaId": "9407",
-	            "codigo_veiculo": "12030",
-	            "partida": "10:00",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 32,
-	            "linhaId": "9407",
-	            "codigo_veiculo": "12031",
-	            "partida": "10:15",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 33,
-	            "linhaId": "9407",
-	            "codigo_veiculo": "12032",
-	            "partida": "10:30",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 34,
-	            "linhaId": "9407",
-	            "codigo_veiculo": "12033",
-	            "partida": "10:45",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 35,
-	            "linhaId": "9407",
-	            "codigo_veiculo": "12034",
-	            "partida": "11:00",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 36,
-	            "linhaId": "9407",
-	            "codigo_veiculo": "12035",
-	            "partida": "11:15",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 37,
-	            "linhaId": "8150",
-	            "codigo_veiculo": "12036",
-	            "partida": "08:00",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 38,
-	            "linhaId": "8150",
-	            "codigo_veiculo": "12037",
-	            "partida": "08:15",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 39,
-	            "linhaId": "8150",
-	            "codigo_veiculo": "12038",
-	            "partida": "08:30",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 40,
-	            "linhaId": "8150",
-	            "codigo_veiculo": "12039",
-	            "partida": "08:45",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 41,
-	            "linhaId": "8150",
-	            "codigo_veiculo": "12040",
-	            "partida": "09:00",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 42,
-	            "linhaId": "8150",
-	            "codigo_veiculo": "12041",
-	            "partida": "09:15",
-	            "adaptado": true
-	        },
-
-	        {
-	            "id": 43,
-	            "linhaId": "4110",
-	            "codigo_veiculo": "12041",
-	            "partida": "07:00",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 44,
-	            "linhaId": "4110",
-	            "codigo_veiculo": "12042",
-	            "partida": "07:15",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 45,
-	            "linhaId": "4110",
-	            "codigo_veiculo": "12043",
-	            "partida": "07:30",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 46,
-	            "linhaId": "4110",
-	            "codigo_veiculo": "12044",
-	            "partida": "07:45",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 47,
-	            "linhaId": "4110",
-	            "codigo_veiculo": "12045",
-	            "partida": "08:00",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 48,
-	            "linhaId": "4110",
-	            "codigo_veiculo": "12046",
-	            "partida": "08:15",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 49,
-	            "linhaId": "4111",
-	            "codigo_veiculo": "12047",
-	            "partida": "10:00",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 50,
-	            "linhaId": "4111",
-	            "codigo_veiculo": "12048",
-	            "partida": "10:15",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 51,
-	            "linhaId": "4111",
-	            "codigo_veiculo": "12049",
-	            "partida": "10:30",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 52,
-	            "linhaId": "4111",
-	            "codigo_veiculo": "12050",
-	            "partida": "10:45",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 53,
-	            "linhaId": "4111",
-	            "codigo_veiculo": "12051",
-	            "partida": "11:00",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 54,
-	            "linhaId": "4111",
-	            "codigo_veiculo": "12052",
-	            "partida": "11:15",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 55,
-	            "linhaId": "9209",
-	            "codigo_veiculo": "12053",
-	            "partida": "06:00",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 56,
-	            "linhaId": "9209",
-	            "codigo_veiculo": "12054",
-	            "partida": "06:15",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 57,
-	            "linhaId": "49209",
-	            "codigo_veiculo": "12055",
-	            "partida": "06:30",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 58,
-	            "linhaId": "9209",
-	            "codigo_veiculo": "12056",
-	            "partida": "06:45",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 59,
-	            "linhaId": "9209",
-	            "codigo_veiculo": "12057",
-	            "partida": "07:00",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 60,
-	            "linhaId": "9209",
-	            "codigo_veiculo": "12058",
-	            "partida": "07:15",
-	            "adaptado": true
-	        },
-
-	        {
-	            "id": 61,
-	            "linhaId": "9209",
-	            "codigo_veiculo": "12059",
-	            "partida": "06:00",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 62,
-	            "linhaId": "2150",
-	            "codigo_veiculo": "12060",
-	            "partida": "08:15",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 63,
-	            "linhaId": "2150",
-	            "codigo_veiculo": "12061",
-	            "partida": "08:30",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 64,
-	            "linhaId": "2150",
-	            "codigo_veiculo": "12062",
-	            "partida": "08:45",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 65,
-	            "linhaId": "2150",
-	            "codigo_veiculo": "12063",
-	            "partida": "09:00",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 66,
-	            "linhaId": "2150",
-	            "codigo_veiculo": "12064",
-	            "partida": "09:15",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 67,
-	            "linhaId": "1170",
-	            "codigo_veiculo": "12065",
-	            "partida": "13:15",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 68,
-	            "linhaId": "1170",
-	            "codigo_veiculo": "12066",
-	            "partida": "13:30",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 69,
-	            "linhaId": "1170",
-	            "codigo_veiculo": "12067",
-	            "partida": "13:45",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 70,
-	            "linhaId": "1170",
-	            "codigo_veiculo": "12068",
-	            "partida": "14:00",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 71,
-	            "linhaId": "1170",
-	            "codigo_veiculo": "12069",
-	            "partida": "14:15",
-	            "adaptado": true
-	        },
-
-	        {
-	            "id": 72,
-	            "linhaId": "2033",
-	            "codigo_veiculo": "12070",
-	            "partida": "13:15",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 73,
-	            "linhaId": "2033",
-	            "codigo_veiculo": "12071",
-	            "partida": "13:30",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 74,
-	            "linhaId": "2033",
-	            "codigo_veiculo": "12072",
-	            "partida": "13:45",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 75,
-	            "linhaId": "2033",
-	            "codigo_veiculo": "12073",
-	            "partida": "14:00",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 76,
-	            "linhaId": "2033",
-	            "codigo_veiculo": "12074",
-	            "partida": "14:15",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 77,
-	            "linhaId": "1505",
-	            "codigo_veiculo": "12076",
-	            "partida": "06:15",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 78,
-	            "linhaId": "1505",
-	            "codigo_veiculo": "12077",
-	            "partida": "06:30",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 79,
-	            "linhaId": "1505",
-	            "codigo_veiculo": "12078",
-	            "partida": "07:30",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 80,
-	            "linhaId": "1505",
-	            "codigo_veiculo": "12079",
-	            "partida": "08:00",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 81,
-	            "linhaId": "1505",
-	            "codigo_veiculo": "12080",
-	            "partida": "08:15",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 82,
-	            "linhaId": "8203",
-	            "codigo_veiculo": "12081",
-	            "partida": "06:15",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 83,
-	            "linhaId": "8203",
-	            "codigo_veiculo": "12082",
-	            "partida": "06:30",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 84,
-	            "linhaId": "8203",
-	            "codigo_veiculo": "12083",
-	            "partida": "07:30",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 85,
-	            "linhaId": "8203",
-	            "codigo_veiculo": "12084",
-	            "partida": "08:00",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 86,
-	            "linhaId": "8203",
-	            "codigo_veiculo": "12085",
-	            "partida": "08:15",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 87,
-	            "linhaId": "4033",
-	            "codigo_veiculo": "12086",
-	            "partida": "12:15",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 88,
-	            "linhaId": "4033",
-	            "codigo_veiculo": "12087",
-	            "partida": "12:30",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 89,
-	            "linhaId": "4033",
-	            "codigo_veiculo": "12088",
-	            "partida": "13:00",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 90,
-	            "linhaId": "4033",
-	            "codigo_veiculo": "12089",
-	            "partida": "13:30",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 91,
-	            "linhaId": "4033",
-	            "codigo_veiculo": "12090",
-	            "partida": "13:45",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 92,
-	            "linhaId": "4031",
-	            "codigo_veiculo": "12091",
-	            "partida": "08:15",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 93,
-	            "linhaId": "4031",
-	            "codigo_veiculo": "12092",
-	            "partida": "08:30",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 94,
-	            "linhaId": "4031",
-	            "codigo_veiculo": "12093",
-	            "partida": "09:00",
-	            "adaptado": true
-	        },
-	        {
-	            "id": 95,
-	            "linhaId": "4031",
-	            "codigo_veiculo": "12094",
-	            "partida": "09:30",
-	            "adaptado": false
-	        },
-	        {
-	            "id": 96,
-	            "linhaId": "4031",
-	            "codigo_veiculo": "12095",
-	            "partida": "09:45",
-	            "adaptado": true
-	        }
-
-	    ]
-	}
