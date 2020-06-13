@@ -12,27 +12,24 @@ const routes: Routes = [
     loadChildren: () => import('./folder/folder.module').then(m => m.FolderPageModule)
   },
   {
-    path: 'perfil',
-    loadChildren: () => import('./perfil/perfil.module').then( m => m.PerfilPageModule)
+    path: 'linhas',
+    loadChildren: () => import('./linhas/linhas.module').then( m => m.LinhasPageModule)
   },
   {
-    path: 'rotas',
-    loadChildren: () => import('./rotas/rotas.module').then( m => m.RotasPageModule)
-  },
-  {
-    path: 'horarios',
-    loadChildren: () => import('./horarios/horarios.module').then( m => m.HorariosPageModule)
+    path: 'veiculos',
+    loadChildren: () => import('./veiculos/veiculos.module').then( m => m.VeiculosPageModule)
   },
   {
     path: 'equipe',
-    loadChildren: () => import('./equipe/equipe.module').then( m => m.EquipePageModule)
-  }
+    loadChildren: () => import('./equipe/equipe.module').then(m => m.EquipePageModule)
+    }
 ];
 
 @NgModule({
-  imports: [
-    RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules })
-  ],
-  exports: [RouterModule]
+    imports: [
+        RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules })
+    ],
+    exports: [RouterModule]
 })
-export class AppRoutingModule {}
+export class AppRoutingModule {
+}
