@@ -23,11 +23,6 @@ export class AppComponent implements OnInit {
       icon: 'bus'
     },
     {
-      title: 'Horarios',
-      url: '/veiculos',
-      icon: 'time'
-    },
-    {
       title: 'Quem somos',
       url: '/equipe',
       icon: 'people'

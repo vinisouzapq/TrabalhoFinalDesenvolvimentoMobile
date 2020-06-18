@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Linhas } from '../models/linhas.model';
 import { LinhasService } from '../services/linhas.service';
+import { VeiculosService } from '../services/veiculos.service';
 
 @Component({
   selector: 'app-linhas',
@@ -9,16 +9,18 @@ import { LinhasService } from '../services/linhas.service';
 })
 export class LinhasPage implements OnInit {
 
-    linhas: Linhas;
-    linhaArray: Linhas[];
-    response: any
+    linhas: any = [];
 
-    constructor(private linhaService: LinhasService) { }
+    constructor(private linhaService: LinhasService, private veiculoService: VeiculosService) { }
 
     async ngOnInit() {
-        this.response = await this.linhas.itinerario;
-        this.linhaArray = this.response;
+        this.linhas = await this.linhaService.getLinhas();
+        return this.linhas;
+    }
 
-  }
+    async getData(linhaId) {
+        const resp = await this.veiculoService.getVeiculos(linhaId);
+        return resp;
+    }
 
 }
