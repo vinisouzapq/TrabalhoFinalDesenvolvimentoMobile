@@ -12,6 +12,10 @@ export class LinhasService {
 
     constructor(private http: HttpClient) { }
 
+    ngOnInit() {
+
+    }
+
     async getLinhas() {
         let response = await this.http.get(this.linhas).toPromise();
         return response;
