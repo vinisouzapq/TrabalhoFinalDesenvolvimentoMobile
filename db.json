@@ -83,13 +83,13 @@
       "linhaId": "9250",
       "codigo_veiculo": "12001",
       "partida": "06:45",
-      "adaptado": false
+      "adaptado": true
     },
     {
       "id": 3,
       "linhaId": "9250",
       "codigo_veiculo": "12002",
-      "partida": "05:15",
+      "partida": "06:50",
       "adaptado": false
     },
     {
@@ -103,14 +103,14 @@
       "id": 5,
       "linhaId": "5201",
       "codigo_veiculo": "12004",
-      "partida": "06:40",
+      "partida": "06:25",
       "adaptado": false
     },
     {
       "id": 6,
       "linhaId": "5201",
       "codigo_veiculo": "12005",
-      "partida": "07:20",
+      "partida": "06:30",
       "adaptado": true
     },
     {
@@ -124,14 +124,14 @@
       "id": 8,
       "linhaId": "2104",
       "codigo_veiculo": "12007",
-      "partida": "07:05",
+      "partida": "06:20",
       "adaptado": true
     },
     {
       "id": 9,
       "linhaId": "2104",
       "codigo_veiculo": "12008",
-      "partida": "07:20",
+      "partida": "07:00",
       "adaptado": false
     },
     {
@@ -145,35 +145,77 @@
       "id": 11,
       "linhaId": "9410",
       "codigo_veiculo": "12010",
-      "partida": "07:50",
+      "partida": "08:00",
       "adaptado": true
     },
     {
       "id": 12,
       "linhaId": "9410",
       "codigo_veiculo": "12011",
-      "partida": "07:50",
+      "partida": "08:30",
       "adaptado": true
     },
     {
       "id": 13,
       "linhaId": "9414",
       "codigo_veiculo": "12012",
-      "partida": "07:50",
+      "partida": "05:00",
       "adaptado": false
     },
     {
       "id": 14,
-      "linhaId": "9410",
+      "linhaId": "9414",
       "codigo_veiculo": "12013",
-      "partida": "07:50",
+      "partida": "06:00",
       "adaptado": true
     },
     {
       "id": 15,
-      "linhaId": "9410",
+      "linhaId": "9414",
       "codigo_veiculo": "12014",
-      "partida": "07:50",
+      "partida": "06:50",
+      "adaptado": true
+    },
+    {
+      "id": 16,
+      "linhaId": "9407",
+      "codigo_veiculo": "12015",
+      "partida": "05:50",
+      "adaptado": true
+    },
+    {
+      "id": 17,
+      "linhaId": "9407",
+      "codigo_veiculo": "12016",
+      "partida": "06:15",
+      "adaptado": true
+    },
+    {
+      "id": 18,
+      "linhaId": "9407",
+      "codigo_veiculo": "12016",
+      "partida": "06:30",
+      "adaptado": false
+    },
+    {
+      "id": 19,
+      "linhaId": "8150",
+      "codigo_veiculo": "12017",
+      "partida": "05:30",
+      "adaptado": false
+    },
+    {
+      "id": 20,
+      "linhaId": "8150",
+      "codigo_veiculo": "12018",
+      "partida": "06:00",
+      "adaptado": true
+    },
+    {
+      "id": 21,
+      "linhaId": "8150",
+      "codigo_veiculo": "12019",
+      "partida": "06:10",
       "adaptado": true
     }
   ]
