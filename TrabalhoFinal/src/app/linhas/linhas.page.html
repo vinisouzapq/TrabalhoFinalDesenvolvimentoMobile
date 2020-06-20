@@ -1,5 +1,5 @@
 <ion-header>
-    <ion-toolbar>
+    <ion-toolbar color="primary">
         <ion-buttons slot="start">
             <ion-menu-button></ion-menu-button>
         </ion-buttons>
@@ -9,7 +9,7 @@
 <ion-content fullscreen>
     <ion-card *ngFor="let linha of linhas">
         <ion-item>
-            <ion-icon name="bus" slot="start"></ion-icon>
+            <ion-img style="width: 35px; height: 35px;" src="https://image.winudf.com/v2/image/Y29tLnRhY29tLnNpdW1vYmlsZXRoZV9pY29uXzE1MTk3OTMzMTlfMDEy/icon.png?w=170&fakeurl=1"></ion-img>
             <ion-label>{{linha.itinerario}}</ion-label>
             <ion-button fill="outline" slot="end" (click)="getLinhas(linha.id)">Ver Horarios</ion-button>
         </ion-item>
