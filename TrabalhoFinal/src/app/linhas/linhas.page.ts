@@ -1,7 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild} from '@angular/core';
 import { LinhasService } from '../services/linhas.service';
 import { Router } from '@angular/router';
-import { Veiculos } from '../models/veiculos.model';
+import { IonInfiniteScroll } from '@ionic/angular';
+
 
 @Component({
   selector: 'app-linhas',
@@ -9,6 +10,7 @@ import { Veiculos } from '../models/veiculos.model';
   styleUrls: ['./linhas.page.scss'],
 })
 export class LinhasPage implements OnInit {
+
 
     linhas: any = [];
 
@@ -25,5 +27,20 @@ export class LinhasPage implements OnInit {
     async getLinhas(linhaId) {
         this.router.navigate(['/veiculos',linhaId]);
     }
+
+    loadData(event) {
+        setTimeout(() => {
+            console.log('Done');
+            event.target.complete();
+
+            // App logic to determine if all data is loaded
+            // and disable the infinite scroll
+            if (this.linhas.length == 1000) {
+                event.target.disabled = true;
+            }
+        }, 500);
+    }
+
+    
 
 }
