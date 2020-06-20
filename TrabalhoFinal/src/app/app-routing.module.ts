@@ -8,21 +8,21 @@ const routes: Routes = [
         pathMatch: 'full'
   },
   {
-    path: 'Inbox',
-    loadChildren: () => import('./folder/folder.module').then(m => m.FolderPageModule)
+        path: 'Inbox',
+        loadChildren: () => import('./folder/folder.module').then(m => m.FolderPageModule)
   },
   {
-    path: 'linhas',
-    loadChildren: () => import('./linhas/linhas.module').then( m => m.LinhasPageModule)
+        path: 'linhas',
+        loadChildren: () => import('./linhas/linhas.module').then( m => m.LinhasPageModule)
   },
   {
-    path: 'veiculos',
-    loadChildren: () => import('./veiculos/veiculos.module').then(m => m.VeiculosPageModule)
+        path: 'veiculos/:id',
+        loadChildren: () => import('./veiculos/veiculos.module').then(m => m.VeiculosPageModule)
   },
   {
-    path: 'equipe',
-    loadChildren: () => import('./equipe/equipe.module').then(m => m.EquipePageModule)
-    }
+        path: 'equipe',
+        loadChildren: () => import('./equipe/equipe.module').then(m => m.EquipePageModule)
+  }
 ];
 
 @NgModule({
