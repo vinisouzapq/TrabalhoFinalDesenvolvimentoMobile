@@ -6,19 +6,18 @@
         <ion-title>Horarios</ion-title>
     </ion-toolbar>
 </ion-header>
-<<<<<<< HEAD
 <ion-content fullscreen>
-    <ion-card *ngFor="let veiculo of veiculos">
-        <ion-item>
-            <ion-icon name="bus" slot="start"></ion-icon>
-            <ion-label>{{veiculo.partida}}</ion-label>
-            <ion-label>{{veiculo.adaptado}}</ion-label>
-        </ion-item>
-    </ion-card>
+    <ion-item *ngFor="let veiculo of veiculos">
+        <ion-badge slot="start">
+            <ion-img style="width: 35px; height: 35px;" src="https://image.winudf.com/v2/image/Y29tLnRhY29tLnNpdW1vYmlsZXRoZV9pY29uXzE1MTk3OTMzMTlfMDEy/icon.png?w=170&fakeurl=1"></ion-img>
+        </ion-badge>
+        <ion-label>{{veiculo.partida}}</ion-label>
+        <ion-badge slot="end">{{veiculo.adaptado}}</ion-badge>
+    </ion-item>
+    <ion-fab vertical="bottom" horizontal="end" [routerLink]="['/linhas']" slot="fixed">
+        <ion-fab-button>
+            <ion-icon name="add"></ion-icon>
+        </ion-fab-button>
+    </ion-fab>
 </ion-content>
-=======
 
-<ion-content>
-
-</ion-content>
->>>>>>> refs/remotes/origin/master

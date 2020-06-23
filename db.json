@@ -33,10 +33,6 @@
       "itinerario": "Dom Cabral x Belvedere"
     },
     {
-      "id": "4111",
-      "itinerario": "Dom Cabral x Anchieta"
-    },
-    {
       "id": "9209",
       "itinerario": "Sagrada Familia x Gutierrez"
     },
@@ -216,6 +212,48 @@
       "linhaId": "8150",
       "codigo_veiculo": "12019",
       "partida": "06:10",
+      "adaptado": true
+    },
+    {
+      "id": 22,
+      "linhaId": "4110",
+      "codigo_veiculo": "12020",
+      "partida": "04:50",
+      "adaptado": true
+    },
+    {
+      "id": 23,
+      "linhaId": "4110",
+      "codigo_veiculo": "12021",
+      "partida": "05:00",
+      "adaptado": true
+    },
+    {
+      "id": 24,
+      "linhaId": "4110",
+      "codigo_veiculo": "12022",
+      "partida": "05:30",
+      "adaptado": false
+    },
+    {
+      "id": 25,
+      "linhaId": "9209",
+      "codigo_veiculo": "12023",
+      "partida": "05:30",
+      "adaptado": false
+    },
+    {
+      "id": 26,
+      "linhaId": "9209",
+      "codigo_veiculo": "12024",
+      "partida": "06:30",
+      "adaptado": true
+    },
+    {
+      "id": 27,
+      "linhaId": "9209",
+      "codigo_veiculo": "12025",
+      "partida": "06:15",
       "adaptado": true
     }
   ]

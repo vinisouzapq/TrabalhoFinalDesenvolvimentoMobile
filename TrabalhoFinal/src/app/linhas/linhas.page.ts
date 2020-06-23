@@ -4,13 +4,14 @@ import { Router } from '@angular/router';
 import { IonInfiniteScroll } from '@ionic/angular';
 
 
+
 @Component({
-  selector: 'app-linhas',
-  templateUrl: './linhas.page.html',
-  styleUrls: ['./linhas.page.scss'],
+    selector: 'app-linhas',
+    templateUrl: './linhas.page.html',
+    styleUrls: ['./linhas.page.scss'],
 })
 export class LinhasPage implements OnInit {
-
+    @ViewChild(IonInfiniteScroll) infiniteScroll: IonInfiniteScroll;
 
     linhas: any = [];
 
@@ -25,7 +26,7 @@ export class LinhasPage implements OnInit {
     }
 
     async getLinhas(linhaId) {
-        this.router.navigate(['/veiculos',linhaId]);
+        this.router.navigate(['/veiculos', linhaId]);
     }
 
     loadData(event) {
@@ -35,12 +36,13 @@ export class LinhasPage implements OnInit {
 
             // App logic to determine if all data is loaded
             // and disable the infinite scroll
-            if (this.linhas.length == 1000) {
+            if (this.linhas.length == 0) {
                 event.target.disabled = true;
             }
         }, 500);
     }
 
-    
-
+    toggleInfiniteScroll() {
+    this.infiniteScroll.disabled = !this.infiniteScroll.disabled
+    }
 }

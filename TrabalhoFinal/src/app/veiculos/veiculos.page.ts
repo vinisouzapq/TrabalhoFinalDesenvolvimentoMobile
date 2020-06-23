@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from "@angular/router";
 import { VeiculosService } from '../services/veiculos.service';
 
+
 @Component({
   selector: 'app-veiculos',
   templateUrl: './veiculos.page.html',
@@ -14,16 +15,16 @@ export class VeiculosPage implements OnInit {
 
     constructor(
         private route: ActivatedRoute,
-        private veiculosService: VeiculosService) { }
+        private veiculosService: VeiculosService,
+    ) { }
 
     async ngOnInit() {
-
         this.veiculos = await this.veiculosService.getVeiculos(this.route.snapshot.paramMap.get("id"));
         return this.veiculos;
-       
+    }
 
-    };
+ 
+    }
+   
 
-    
-}
 
