@@ -22,9 +22,8 @@ export class VeiculosPage implements OnInit {
         this.veiculos = await this.veiculosService.getVeiculos(this.route.snapshot.paramMap.get("id"));
         return this.veiculos;
     }
-
  
-    }
+}
    
 
 
