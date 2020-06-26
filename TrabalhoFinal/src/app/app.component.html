@@ -1,9 +1,14 @@
 <ion-app>
     <ion-split-pane contentId="main-content">
         <ion-menu contentId="main-content" type="overlay">
+<<<<<<< HEAD
             <ion-content>
 
                 <center><ion-img style="width: 150px; height: 150px;" src="assets/imag/teste-removebg.png" class="logo"></ion-img></center>
+=======
+            <ion-content text-center>
+                <ion-img style="width: 130px; height: 130px; margin-left: 90px;" src="assets/imag/Bus.png" class="logo"></ion-img>
+>>>>>>> be1199bfa5d535f1c6ed82b8cb60a1d19b898696
                 <ion-list id="inbox-list">
                     <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages; let i = index">
                         <ion-item (click)="selectedIndex = i" routerDirection="root" [routerLink]="[p.url]" lines="none" detail="false" [class.selected]="selectedIndex == i">
@@ -16,6 +21,10 @@
                 </ion-list>
                 <ion-list id="labels-list">
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> be1199bfa5d535f1c6ed82b8cb60a1d19b898696
                     <ion-item *ngFor="let label of labels" lines="none">
                         <ion-icon slot="start" ios="bookmark-outline" md="bookmark-sharp"></ion-icon>
                         <ion-label>{{ label }}</ion-label>
