@@ -9,12 +9,12 @@ import { EquipePageRoutingModule } from './equipe-routing.module';
 import { EquipePage } from './equipe.page';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    EquipePageRoutingModule
-  ],
-  declarations: [EquipePage]
+    imports: [
+        CommonModule,
+        FormsModule,
+        IonicModule,
+        EquipePageRoutingModule
+    ],
+    declarations: [EquipePage]
 })
-export class EquipePageModule {}
+export class EquipePageModule { }

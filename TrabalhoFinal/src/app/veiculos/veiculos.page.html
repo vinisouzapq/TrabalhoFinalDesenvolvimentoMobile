@@ -6,29 +6,19 @@
         <ion-title>Horarios</ion-title>
     </ion-toolbar>
 </ion-header>
-<<<<<<< HEAD
 
-=======
->>>>>>> be1199bfa5d535f1c6ed82b8cb60a1d19b898696
-
-<ion-content fullscreen>
+<ion-content fullscreen lang="pt-br">
     <ion-card *ngFor="let veiculo of veiculos">
         <ion-item>
             <ion-img slot="start" style="width: 35px; height: 35px;" src="https://image.winudf.com/v2/image/Y29tLnRhY29tLnNpdW1vYmlsZXRoZV9pY29uXzE1MTk3OTMzMTlfMDEy/icon.png?w=170&fakeurl=1"></ion-img>
-            <ion-label>{{veiculo.partida}}</ion-label>
-            <ion-label>{{veiculo.adaptado ? "Adaptado" : "Nao adaptado"}}</ion-label>
+            <ion-label>{{veiculo.partida}} {{veiculo.adaptado ? "Adaptado" : "Nao adaptado"}} </ion-label>
         </ion-item>
     </ion-card>
     <ion-fab vertical="bottom" horizontal="end" [routerLink]="['/linhas']" slot="fixed">
         <ion-fab-button>
-            <ion-icon name="add"></ion-icon>
+            <ion-icon name="arrow-back-circle"></ion-icon>
         </ion-fab-button>
     </ion-fab>
 </ion-content>
-<ion-content>
-<<<<<<< HEAD
-</ion-content>
-=======
 
-</ion-content>
->>>>>>> be1199bfa5d535f1c6ed82b8cb60a1d19b898696
+

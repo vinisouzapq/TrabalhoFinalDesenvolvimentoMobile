@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+
+
 import { Platform } from '@ionic/angular';
 import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
@@ -11,23 +13,23 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 })
 export class AppComponent implements OnInit {
   public selectedIndex = 0;
-  public appPages = [
-    {
-      title: 'Inicio',
-      url: '/Inbox',
-      icon: 'Home'
-    },
-    {
-      title: 'Rotas',
-      url: '/linhas',
-      icon: 'bus'
-    },
-    {
-      title: 'Quem somos',
-      url: '/equipe',
-      icon: 'people'
-    }
-  ];
+    public appPages = [
+        {
+            title: 'Inicio',
+            url: '/Inbox',
+            icon: 'Home'
+        },
+        {
+            title: 'Rotas',
+            url: '/linhas',
+            icon: 'bus'
+        },
+        {
+            title: 'Quem somos',
+            url: '/equipe',
+            icon: 'people'
+        }
+    ];
 
   constructor(
     private platform: Platform,
