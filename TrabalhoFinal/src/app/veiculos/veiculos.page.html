@@ -11,7 +11,8 @@
     <ion-card *ngFor="let veiculo of veiculos">
         <ion-item>
             <ion-img slot="start" style="width: 35px; height: 35px;" src="https://image.winudf.com/v2/image/Y29tLnRhY29tLnNpdW1vYmlsZXRoZV9pY29uXzE1MTk3OTMzMTlfMDEy/icon.png?w=170&fakeurl=1"></ion-img>
-            <ion-label>{{veiculo.partida}} {{veiculo.adaptado ? "Adaptado" : "Nao adaptado"}} </ion-label>
+            <ion-label>{{veiculo.partida}} </ion-label>
+            <ion-label>{{veiculo.adaptado ? "Adaptado" : "N&atilde;o adaptado"}} </ion-label>
         </ion-item>
     </ion-card>
     <ion-fab vertical="bottom" horizontal="end" [routerLink]="['/linhas']" slot="fixed">
